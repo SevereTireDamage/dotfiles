@@ -13,3 +13,6 @@ cp -b vimrc/vimrcs/basic.vim ~/.vimrc
 mkdir -p .config/terminator
 cp -b terminator/config ~/.config/terminator
 
+# high dpi preferences
+highdpi/highdpi.sh
+
