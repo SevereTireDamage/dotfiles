@@ -9,3 +9,7 @@ echo source .bashrc-extra >> ~/.bashrc
 # vim
 cp -b vimrc/vimrcs/basic.vim ~/.vimrc
 
+# terminator
+mkdir -p .config/terminator
+cp -b terminator/config ~/.config/terminator
+
