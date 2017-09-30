@@ -3,8 +3,8 @@
 git submodule update --init --recursive
 
 # bash
+[ -f ~/.bashrc-extra ] || echo source .bashrc-extra >> ~/.bashrc
 cp -b bash/.bashrc-extra ~/.bashrc-extra
-echo source .bashrc-extra >> ~/.bashrc
 
 # vim
 cp -b vimrc/vimrcs/basic.vim ~/.vimrc
@@ -15,4 +15,7 @@ cp -b terminator/config ~/.config/terminator
 
 # high dpi preferences
 highdpi/highdpi.sh
+
+# compizconfig-settings-manager for gnonme-session-flashback
+gnome-compiz/gnome-compiz.sh
 
