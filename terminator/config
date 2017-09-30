@@ -5,7 +5,6 @@
 [keybindings]
 [profiles]
   [[default]]
-    use_system_font = False
     background_image = None
     foreground_color = "#ffffff"
     scroll_on_output = False
